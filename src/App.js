@@ -3,7 +3,7 @@ import React from 'react'
 import './App.css';
 
 function App() {
-  const result = React.useState("Yes")
+  const [result, func] = React.useState("Yes")
     console.log(result)
     return (
         <div className="state">
